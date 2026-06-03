@@ -1,0 +1,6 @@
+{
+  "name": "Invisible Ingredients",
+  "description": "An educational project exploring chemical toxins in menstrual products through interactive data visualization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
