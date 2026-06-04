@@ -45,35 +45,27 @@ export default function ChemicalsPage() {
     <div className="min-h-screen bg-[#f8fafc] text-slate-900 font-sans selection:bg-blue-100">
       <Navbar />
 
-      <main className="max-w-7xl mx-auto px-6 py-12">
+      <main className="max-w-5xl mx-auto px-8 py-12">
         {/* Header */}
-        <div className="grid md:grid-cols-2 gap-12 mb-16 items-end">
+        <section className="pt-20 pb-12 border-b border-slate-200">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.55 }}
           >
-            <h1 className="text-5xl md:text-6xl font-serif font-medium leading-[1.06] text-slate-900 mb-8">
+            <h1 className="text-5xl md:text-6xl font-serif font-medium leading-[1.06] text-slate-900 mb-6">
               {t.chemicals.pageTitle} <br />
               <span className="text-blue-600 italic">{t.chemicals.pageTitleAccent}</span>.
             </h1>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.55, delay: 0.15 }}
-            className="text-slate-500 leading-relaxed max-w-md bg-white p-6 rounded-2xl border border-slate-100 shadow-sm"
-          >
-            <div className="flex items-start gap-3">
+            <p className="text-slate-400 text-lg leading-relaxed max-w-2xl flex items-start gap-2">
               <Info size={18} className="text-blue-600 mt-1 shrink-0" />
-              <p className="text-base">{t.chemicals.instructionText}</p>
-            </div>
+              {t.chemicals.instructionText}
+            </p>
           </motion.div>
-        </div>
+        </section>
 
         {/* Filters */}
-        <div className="mb-12 py-8 border-y border-slate-200 space-y-5">
+        <div className="mb-12 mt-10 py-8 border-b border-slate-200 space-y-5">
           {/* Search */}
           <div className="relative max-w-sm">
             <Search
