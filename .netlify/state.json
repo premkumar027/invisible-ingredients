@@ -1,0 +1,21 @@
+{
+	"geolocation": {
+		"data": {
+			"city": "Linz",
+			"country": {
+				"code": "AT",
+				"name": "Austria"
+			},
+			"subdivision": {
+				"code": "4",
+				"name": "Upper Austria"
+			},
+			"timezone": "Europe/Vienna",
+			"latitude": 48.3074,
+			"longitude": 14.285,
+			"postalCode": "4020"
+		},
+		"timestamp": 1780533504158
+	},
+	"dbConnectionString": "postgres://localhost:32805/postgres"
+}
