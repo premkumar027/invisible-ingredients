@@ -45,7 +45,7 @@ export default function ChemicalsPage() {
     <div className="min-h-screen bg-[#f8fafc] text-slate-900 font-sans selection:bg-blue-100">
       <Navbar />
 
-      <main className="max-w-5xl mx-auto px-8 py-12">
+      <main className="max-w-5xl mx-auto px-8">
         {/* Header */}
         <section className="pt-20 pb-12 border-b border-slate-200">
           <motion.div
