@@ -6,6 +6,10 @@ coverage/
 *.log
 .env*
 !.env.example
+<<<<<<< Updated upstream
 
 # Local Netlify folder
 .netlify
+=======
+.netlify/
+>>>>>>> Stashed changes
