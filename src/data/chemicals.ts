@@ -1,0 +1,149 @@
+import { Chemical } from '../types';
+
+const chemicals: Chemical[] = [
+  {
+    id: 'cotton',
+    name: 'Cotton',
+    category: 'Absorbents',
+    shortDescription: 'Natural soft fiber used for comfort and absorption',
+    longDescription:
+      'The primary component in most conventional pads and tampons, providing the soft texture and absorbent core.',
+    foundIn: ['Tampons', 'Pads', 'Covers'],
+    healthEffects: 'Usually safe; rarely irritation if contaminated or chemically treated.',
+    safetyRating: 1,
+    typicallyUndisclosed: false,
+  },
+  {
+    id: 'paraffin-emulsion',
+    name: 'Paraffin Emulsion',
+    category: 'Coatings',
+    shortDescription: 'Wax-like coating that improves texture or moisture resistance',
+    longDescription:
+      'Applied to the outer surface of products to create a smoother feel and help manage moisture flow.',
+    foundIn: ['Tampon covers', 'Liners'],
+    healthEffects: 'May trap heat/moisture and contribute to skin discomfort.',
+    safetyRating: 2,
+    typicallyUndisclosed: true,
+  },
+  {
+    id: 'polyethylene',
+    name: 'Polyethylene',
+    category: 'Plastics',
+    shortDescription: 'Plastic layer that prevents leaks',
+    longDescription:
+      'A versatile plastic used in the backsheets of pads and in some tampon applicators to create a moisture barrier.',
+    foundIn: ['Backsheets', 'Applicators', 'Wrappers'],
+    healthEffects: 'Can reduce airflow and increase sweating or irritation.',
+    safetyRating: 2,
+    typicallyUndisclosed: true,
+  },
+  {
+    id: 'phthalates',
+    name: 'Phthalates',
+    category: 'Additives',
+    shortDescription: 'Chemicals used to soften plastics and improve flexibility',
+    longDescription:
+      "Often hidden in 'fragrance' mixes or plastic components to make them pliable and scented.",
+    foundIn: ['Fragrance', 'Plastic components'],
+    healthEffects: 'Possible hormone disruption, reproductive concerns, skin irritation.',
+    safetyRating: 5,
+    typicallyUndisclosed: true,
+  },
+  {
+    id: 'parabens',
+    name: 'Parabens',
+    category: 'Preservatives',
+    shortDescription: 'Preservatives that prevent bacteria and mold growth',
+    longDescription:
+      'Common synthetic preservatives that have been widely used in personal care products to maintain shelf stability.',
+    foundIn: ['Moisturizers', 'Lubricants', 'Wipes'],
+    healthEffects: 'Possible hormone-related effects and allergic reactions.',
+    safetyRating: 4,
+    typicallyUndisclosed: true,
+  },
+  {
+    id: 'phenols',
+    name: 'Phenols',
+    category: 'Additives',
+    shortDescription: 'Chemical compounds sometimes used for preservation or processing',
+    longDescription:
+      'A broad group of chemicals used in various manufacturing stages, sometimes remaining as traces in the final product.',
+    foundIn: ['Manufacturing trace', 'Adhesives'],
+    healthEffects: 'Skin irritation, possible toxicity with high exposure.',
+    safetyRating: 4,
+    typicallyUndisclosed: true,
+  },
+  {
+    id: 'fragrance',
+    name: 'Fragrance',
+    category: 'Additives',
+    shortDescription: 'Added scent to improve smell',
+    longDescription:
+      "A 'proprietary' mix that can contain thousands of unlisted chemicals used to mask or add scent.",
+    foundIn: ['Scented pads', 'Scented tampons'],
+    healthEffects: 'Allergies, itching, irritation, headaches in sensitive individuals.',
+    safetyRating: 4,
+    typicallyUndisclosed: true,
+  },
+  {
+    id: 'dioxins',
+    name: 'Dioxins',
+    category: 'Additives',
+    shortDescription: 'Trace industrial contaminants formed during some manufacturing processes',
+    longDescription:
+      'Unintentional byproducts of chlorine bleaching used to whiten wood pulp and cotton.',
+    foundIn: ['Bleached pads', 'Bleached tampons'],
+    healthEffects: 'Long-term exposure linked to hormone disruption and possible cancer risk.',
+    safetyRating: 5,
+    typicallyUndisclosed: true,
+  },
+  {
+    id: 'titanium-dioxide',
+    name: 'Titanium Dioxide',
+    category: 'Coatings',
+    shortDescription: 'White coloring ingredient used to brighten materials',
+    longDescription: 'An inorganic compound used to make products look sterile and bright white.',
+    foundIn: ['Pad covers', 'Tampon tips'],
+    healthEffects: 'Low skin risk; inhalation concerns mainly apply to powders.',
+    safetyRating: 2,
+    typicallyUndisclosed: true,
+  },
+  {
+    id: 'zinc-oxide',
+    name: 'Zinc Oxide',
+    category: 'Additives',
+    shortDescription: 'Mineral that helps soothe and protect skin',
+    longDescription:
+      'Used for its anti-irritant properties, often found in liners designed for sensitive skin.',
+    foundIn: ['Sensitive liners', 'Ointments'],
+    healthEffects: 'Usually beneficial and calming for skin.',
+    safetyRating: 1,
+    typicallyUndisclosed: false,
+  },
+  {
+    id: 'latex',
+    name: 'Latex',
+    category: 'Plastics',
+    shortDescription: 'Natural rubber used for flexibility and sealing',
+    longDescription:
+      'A natural material that provides excellent elasticity but is a common allergen.',
+    foundIn: ['Elastic cuffs', 'Adhesives'],
+    healthEffects: 'Allergic reactions ranging from itching to severe latex allergy.',
+    safetyRating: 4,
+    typicallyUndisclosed: false,
+  },
+  {
+    id: 'silicone',
+    name: 'Silicone',
+    category: 'Plastics',
+    shortDescription: 'Smooth flexible material used for comfort and leak protection',
+    longDescription:
+      'The gold standard for menstrual cups due to its durability and biocompatibility.',
+    foundIn: ['Menstrual cups', 'Linings'],
+    healthEffects: 'Rare irritation or trapped moisture.',
+    safetyRating: 2,
+    typicallyUndisclosed: false,
+  },
+];
+
+export default chemicals;

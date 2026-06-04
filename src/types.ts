@@ -9,4 +9,5 @@ export interface Chemical {
   healthEffects: string;
   safetyRating: number;
   products?: string;
+  typicallyUndisclosed: boolean;
 }
